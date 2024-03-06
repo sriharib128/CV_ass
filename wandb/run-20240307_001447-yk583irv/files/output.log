@@ -1,0 +1,7 @@
+{'learning_rate': 0.001, 'batch_size': 64, 'epoch': 2, 'optimizer': 'adam'}
+Training set has 60000 instances
+Validation set has 10000 instances
+EPOCH 1:
+EPOCH 1:
+LOSS train 0 valid 0.0012528389401733875 ACC 0.9748
+EPOCH 1:

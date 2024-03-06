@@ -1,0 +1,64 @@
+2024-03-07 00:22:22,628 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-07 00:22:22,628 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Configure stats pid to 10216
+2024-03-07 00:22:22,628 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from /home2/surya_ravindra/.config/wandb/settings
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from /home2/surya_ravindra/CV_A2/wandb/settings
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_init.py:_log_setup():526] Logging user logs to /home2/surya_ravindra/CV_A2/wandb/run-20240307_002222-v949z6qa/logs/debug.log
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_init.py:_log_setup():527] Logging internal logs to /home2/surya_ravindra/CV_A2/wandb/run-20240307_002222-v949z6qa/logs/debug-internal.log
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_init.py:init():566] calling init triggers
+2024-03-07 00:22:22,629 INFO    MainThread:10216 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-07 00:22:22,630 INFO    MainThread:10216 [wandb_init.py:init():616] starting backend
+2024-03-07 00:22:22,630 INFO    MainThread:10216 [wandb_init.py:init():620] setting up manager
+2024-03-07 00:22:22,809 ERROR   MainThread:10216 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 621, in init
+    manager._inform_init(
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 200, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2024-03-07 00:22:32,554 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Configure stats pid to 10216
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from /home2/surya_ravindra/.config/wandb/settings
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from /home2/surya_ravindra/CV_A2/wandb/settings
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_init.py:_log_setup():526] Logging user logs to /home2/surya_ravindra/CV_A2/wandb/run-20240307_002232-upvr4u28/logs/debug.log
+2024-03-07 00:22:32,555 INFO    MainThread:10216 [wandb_init.py:_log_setup():527] Logging internal logs to /home2/surya_ravindra/CV_A2/wandb/run-20240307_002232-upvr4u28/logs/debug-internal.log
+2024-03-07 00:22:32,556 INFO    MainThread:10216 [wandb_init.py:init():566] calling init triggers
+2024-03-07 00:22:32,556 INFO    MainThread:10216 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-07 00:22:32,556 INFO    MainThread:10216 [wandb_init.py:init():616] starting backend
+2024-03-07 00:22:32,556 INFO    MainThread:10216 [wandb_init.py:init():620] setting up manager
+2024-03-07 00:22:32,727 ERROR   MainThread:10216 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 621, in init
+    manager._inform_init(
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 200, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

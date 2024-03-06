@@ -1,0 +1,6 @@
+Training set has 60000 instances
+Validation set has 10000 instances
+Traceback (most recent call last):
+  File "/tmp/ipykernel_13354/100827755.py", line 15, in train
+    for epoch_number in range(config.epochs):
+TypeError: 'list' object cannot be interpreted as an integer
