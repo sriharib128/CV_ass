@@ -614,3 +614,111 @@
 2024-03-07 12:53:43,043 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
 2024-03-07 12:53:44,347 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
 2024-03-07 12:53:49,348 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:53:54,349 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:53:58,003 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-07 12:53:58,003 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: stop_status
+2024-03-07 12:53:58,047 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-07 12:54:00,339 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:05,340 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:10,341 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:13,003 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-07 12:54:13,003 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: stop_status
+2024-03-07 12:54:13,047 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-07 12:54:16,328 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:21,329 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:26,330 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:28,003 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-07 12:54:28,003 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: stop_status
+2024-03-07 12:54:28,047 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-07 12:54:31,386 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:36,387 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:41,388 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:43,003 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-07 12:54:43,004 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: stop_status
+2024-03-07 12:54:43,047 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-07 12:54:47,328 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:51,918 DEBUG   SenderThread:1266 [sender.py:send():378] send: exit
+2024-03-07 12:54:51,918 INFO    SenderThread:1266 [sender.py:send_exit():585] handling exit code: 0
+2024-03-07 12:54:51,919 INFO    SenderThread:1266 [sender.py:send_exit():587] handling runtime: 10
+2024-03-07 12:54:51,922 INFO    SenderThread:1266 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-07 12:54:51,923 INFO    SenderThread:1266 [sender.py:send_exit():593] send defer
+2024-03-07 12:54:51,924 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,924 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-07 12:54:51,924 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,924 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-07 12:54:51,924 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 1
+2024-03-07 12:54:51,925 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,925 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-07 12:54:51,925 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,925 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-07 12:54:51,925 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 2
+2024-03-07 12:54:51,925 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,926 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-07 12:54:51,926 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,926 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-07 12:54:51,926 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 3
+2024-03-07 12:54:51,926 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,926 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-07 12:54:51,927 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,927 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-07 12:54:51,927 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 4
+2024-03-07 12:54:51,927 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,927 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-07 12:54:51,928 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,928 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-07 12:54:51,928 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 5
+2024-03-07 12:54:51,928 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,928 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-07 12:54:51,929 DEBUG   SenderThread:1266 [sender.py:send():378] send: summary
+2024-03-07 12:54:51,930 INFO    SenderThread:1266 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-07 12:54:51,930 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,930 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-07 12:54:51,930 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 6
+2024-03-07 12:54:51,931 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,931 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-07 12:54:51,931 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,931 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-07 12:54:51,931 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 7
+2024-03-07 12:54:51,932 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-03-07 12:54:51,932 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:51,932 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-07 12:54:51,932 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:51,932 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-07 12:54:52,161 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 8
+2024-03-07 12:54:52,161 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-03-07 12:54:52,161 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-07 12:54:52,162 DEBUG   SenderThread:1266 [sender.py:send_request():405] send_request: defer
+2024-03-07 12:54:52,162 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-07 12:54:52,162 INFO    SenderThread:1266 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-07 12:54:52,163 INFO    SenderThread:1266 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-07 12:54:52,163 INFO    SenderThread:1266 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-03-07 12:54:52,832 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/surya_ravindra/CV_A2/wandb/run-20240307_123016-pb2mbmpz/files/output.log
+2024-03-07 12:54:52,833 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/surya_ravindra/CV_A2/wandb/run-20240307_123016-pb2mbmpz/files/wandb-summary.json
+2024-03-07 12:54:52,917 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-07 12:54:52,918 INFO    HandlerThread:1266 [handler.py:finish():869] shutting down handler
+2024-03-07 12:54:52,918 INFO    WriterThread:1266 [datastore.py:close():296] close: /home2/surya_ravindra/CV_A2/wandb/run-20240307_123016-pb2mbmpz/run-pb2mbmpz.wandb
+2024-03-07 12:54:52,920 ERROR   StreamThr :1266 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 328, in _process
+    self._sm.send(record)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 385, in send
+    send_handler(record)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 407, in send_request
+    send_handler(record)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 641, in send_request_defer
+    self._flush_job()
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 1595, in _flush_job
+    artifact = self._job_builder.build()
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/sdk/internal/job_builder.py", line 380, in build
+    wandb.termwarn(
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/errors/term.py", line 50, in termwarn
+    _log(
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home2/surya_ravindra/miniconda3/envs/pytorch_conda/lib/python3.8/site-packages/click/utils.py", line 319, in echo
+    file.flush()
+BrokenPipeError: [Errno 32] Broken pipe
