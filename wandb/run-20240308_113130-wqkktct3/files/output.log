@@ -1,0 +1,19 @@
+{'learning_rate': 0.001, 'batch_size': 8, 'epoch': 5, 'optimizer': 'sgd'}
+Training set has 60000 instances
+Validation set has 10000 instances
+EPOCH 1:
+1000th batch => 24.72810230255127
+2000th batch => 24.389648151397704
+3000th batch => 24.16528527736664
+4000th batch => 23.816982421875
+5000th batch => 23.314262909889223
+6000th batch => 22.924945602416994
+7000th batch => 22.892203794717787
+LOSS train 22.892203794717787 valid 0.28633981591463087 ACC 0.1133
+EPOCH 2:
+1000th batch => 22.869878356456756
+2000th batch => 22.86896872639656
+3000th batch => 22.829239159822464
+4000th batch => 22.802237657308577
+5000th batch => 22.789657603502274
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

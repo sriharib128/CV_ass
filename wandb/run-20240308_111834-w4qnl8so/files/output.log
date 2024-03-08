@@ -1,0 +1,16 @@
+
+{'learning_rate': 0.001, 'batch_size': 8, 'epoch': 5, 'optimizer': 'sgd'}
+Training set has 6000 instances
+Validation set has 10000 instances
+EPOCH 1:
+EPOCH 1:
+LOSS train 2.490544286410014 valid 0.32102270476818084 ACC 0.0959
+EPOCH 2:
+LOSS train 2.4464733527501425 valid 0.3163688858270645 ACC 0.1056
+EPOCH 3:
+LOSS train 2.4276007630030314 valid 0.29718173314332963 ACC 0.1009
+EPOCH 4:
+wandb: Network error (ConnectionError), entering retry loop.
+LOSS train 2.4170945887565614 valid 0.3148288789272308 ACC 0.0993
+EPOCH 5:
+LOSS train 2.422046122868856 valid 0.3006438307523727 ACC 0.1109
