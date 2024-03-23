@@ -1,4 +1,4 @@
-./A2/wandb/
-./A2/models/
-./A2/data/
-./A2/*.pkl
+A2/wandb/
+A2/models/
+A2/data/
+A2/*.pkl
