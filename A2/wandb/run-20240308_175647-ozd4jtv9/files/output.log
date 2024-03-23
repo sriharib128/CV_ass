@@ -1,0 +1,15 @@
+{'learning_rate': 0.001, 'batch_size': 64, 'epoch': 5, 'optimizer': 'adam'}
+Training set has 60032 instances
+Validation set has 10000 instances
+EPOCH 1:
+/home/srihari/miniconda3/envs/conda_cv/lib/python3.11/site-packages/torch/nn/modules/transformer.py:286: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+LOSS train 0.4169465715188716 valid 0.0035603805648162963 ACC 0.929
+EPOCH 2:
+LOSS train 0.2101337081019971 valid 0.002652829633979127 ACC 0.9458
+EPOCH 3:
+LOSS train 0.1635349067980483 valid 0.002282949787774123 ACC 0.9552
+EPOCH 4:
+LOSS train 0.1377259057823386 valid 0.0024871663068421184 ACC 0.9503
+EPOCH 5:
+LOSS train 0.12256830568903926 valid 0.002051530849467963 ACC 0.9602

@@ -1,0 +1,4 @@
+{'batch_size': 32, 'epochs': 1, 'learning_rate': 0.1, 'optimizer': 'sgd'}
+Training set has 60000 instances
+Validation set has 10000 instances
+EPOCH 0  LOSS train 0.42460098454226325 valid 0.006074306893482572 ACC 0.9502

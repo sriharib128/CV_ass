@@ -1,0 +1,5 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'batch_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'optimizer' was locked by 'sweep' (ignored update).
+{'batch_size': 8, 'epochs': 5, 'learning_rate': 0.001, 'optimizer': 'sgd', 'epoch': 5}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
