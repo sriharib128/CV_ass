@@ -1,4 +1,0 @@
-Training set has 60000 instances
-Validation set has 10000 instances
-EPOCH 0  LOSS train 0 valid 0.0064567423224900266 ACC 0.9466
-EPOCH 1  LOSS train 0 valid 0.006343658934028645 ACC 0.9494
