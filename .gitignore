@@ -3,3 +3,8 @@ A2/models/
 A2/data/
 A2/*.pkl
 A3/frames/
+A3/frames_track/
+A3/output.mp4
+A3/track_id.mp4
+A3/archive/
+
