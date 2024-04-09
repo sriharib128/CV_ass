@@ -1,0 +1,18 @@
+./8m_pretrained_100img.pt:
+  train_map50: '0.5145641148451473'
+  val_map50: '0.7650654444444815'
+./8m_pretrained_400img.pt:
+  train_map50: '0.6341431052263113'
+  val_map50: '0.6824602386564481'
+./8n_pretrained_100img.pt:
+  train_map50: '0.3933532849826364'
+  val_map50: '0.6196120870840143'
+./8n_pretrained_400img.pt:
+  train_map50: '0.7191097542662153'
+  val_map50: '0.7451942051689854'
+./8n_scratch_100img.pt:
+  train_map50: '0.004443553390401636'
+  val_map50: '0.01331078806616563'
+./8n_scratch_400img.pt:
+  train_map50: '0.1710272651327212'
+  val_map50: '0.23190925440902255'
