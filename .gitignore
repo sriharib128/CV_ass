@@ -17,3 +17,6 @@ A3/*.pt
 A3/*.xml
 .ipynb_checkpoints/
 A4/A_4.zip
+A4/*.pkl
+A4/*.pth
+A4/cityscapes_data/
